@@ -1,8 +1,9 @@
-module JsontoParquet
+module personaFakeGenerator
 
 go 1.19
 
 require (
+	github.com/brianvoe/gofakeit/v6 v6.20.1
 	github.com/xitongsys/parquet-go v1.6.2
 	github.com/xitongsys/parquet-go-source v0.0.0-20221025031416-9877e685ef65
 )
